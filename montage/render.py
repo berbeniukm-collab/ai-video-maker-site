@@ -278,7 +278,7 @@ def s7(img, t):
 def s8(img, t):
     def ex(img, t):
         title(img, t, 11.44, "СЕГОДНЯ", "", 110, hs=110, center=True)
-        title(img, t, 12.10, "У МАХИ", "в гараже", 1650, hs=128, ts=72, center=True)
+        title(img, t, 12.10, "У УМАРА", "в гараже", 1650, hs=120, ts=68, center=True)
     scene_fullbleed_behind(img, t, 11.40, t, "ГАРАЖ", 300, "", "", 0, 0, push=0.025, extra=ex)
 
 def render_frame(n):
